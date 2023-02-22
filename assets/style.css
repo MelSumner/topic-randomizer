@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Comic Sans MS', 'Comic Sans', sans-serif;
+  font-family: 'Comic Sans MS', 'Comic Sans', system-ui, sans-serif;
   font-size: 1.5rem;
   line-height: 1.2;
 }
