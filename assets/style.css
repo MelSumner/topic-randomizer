@@ -7,8 +7,10 @@ body {
   line-height: 1.2;
 }
 header, main {
+  /* display: flex; */
   margin: 0 auto;
   width: 70ch;
+  max-width: 100%;
 }
 header h1 {
   border-bottom: 4px solid purple;
