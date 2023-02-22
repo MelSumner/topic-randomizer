@@ -71,8 +71,7 @@ header > h1 {
   display: flex;
   font-family: var(--font-heading);
   font-size: 2rem;
-  justify-content: center;
-  align-content:center;
+  justify-content: flex-start;
   line-height: 1;
   margin: 0;
   padding: 0;
@@ -80,7 +79,6 @@ header > h1 {
 @media screen and (min-width: 40em) {
   header h1 {
     font-size: 3rem;
-    justify-content: flex-start;
   }
 }
 @media screen and (min-width: 52em) {
