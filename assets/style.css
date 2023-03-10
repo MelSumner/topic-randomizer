@@ -1,7 +1,23 @@
+@font-face {
+  font-family: 'gourmet_le_french_scriptRg';
+  src: url('./fonts/gourmet_le_french_script-webfont.woff2') format('woff2'),
+       url('./fonts/gourmet_le_french_script-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gourmet_le_frenchregular';
+  src: url('./fonts/gourmet_le_french-webfont.woff2') format('woff2'),
+       url('./fonts/gourmet_le_french-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
-  --font-heading: 'Comic Sans MS', 'Comic Sans', system-ui, sans-serif;
-  --font-body: 'Comic Sans MS', 'Comic Sans', system-ui, sans-serif;
-  --color-primary: purple;
+  --font-heading: 'gourmet_le_frenchregular', system-ui, sans-serif;
+  --font-body: 'gourmet_le_frenchregular', system-ui, sans-serif;
+  --color-primary: rgb(69, 2, 69);
   --color-complementary: white;
 }
 
@@ -155,5 +171,13 @@ header h1 {
   padding: 1em;
 }
 
-body {
-  
+.text--uppercase {
+  text-transform: uppercase;
+  letter-spacing:4px;
+}
+
+.text--stylish {
+  font-family: 'gourmet_le_french_scriptRg';
+  font-size: 4rem;
+  line-height: 1;
+}

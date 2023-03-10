@@ -8,19 +8,20 @@ function updateTopic() {
 		"numberwang!",
 		"play No More Jockeys",
 		"experienced broadcaster Peter Barakan",
-		"Which exam(s) did you fail before deciding to do your current job instead?",
+		"what is your favorite open source project?",
 		"what job did you want to do as a child?",
 		"what was your favorite summertime activity?",
 		"the number of times you've been to the dentist in the last 12 months",
-		"favorite colloquial phrases that don't translate but really they do",
-		"When will the bird site go away? Any Bets?",
+		"favorite colloquial phrases that don't translate well but have an equivalency",
+		"When will the bird site go away? Any bets?",
 		"latest interesting RSS feed?",
 		"why is comic sans the best font?",
     "what is your favorite 'Document 72 hours' episode on NHK World Japan?",
-    "what is the best sandwich",
+    "what is the best sandwich?",
     "what's the easiest way to put markdown into your website?",
     "ok what podcast are you listening to and is it about murder?",
-    "what are the best headphones?"
+    "what are the best headphones?",
+		"what's a great podcast episode you've listened to recently?"
 	];
 	let newTopicIndex = Math.floor(Math.random() * topics.length);
 	let paragraphElement = document.getElementById("topic");
